@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CustomerController">
+   <children>
+      <Label layoutX="117.0" layoutY="27.0" text="Customer View Form" textFill="#312399">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_customerID" layoutX="90.0" layoutY="116.0" prefHeight="42.0" prefWidth="149.0" promptText="Customer ID" />
+      <TextField fx:id="txt_customerName" layoutX="331.0" layoutY="116.0" prefHeight="42.0" prefWidth="149.0" promptText="Customer Name" />
+      <TextField fx:id="txt_customerAddress" layoutX="90.0" layoutY="200.0" prefHeight="42.0" prefWidth="149.0" promptText="Customer Address" />
+      <TextField fx:id="txt_customerSalary" layoutX="331.0" layoutY="200.0" prefHeight="42.0" prefWidth="149.0" promptText="Customer Salary" />
+      <Button layoutX="436.0" layoutY="289.0" mnemonicParsing="false" onAction="#btnSaveOnAction" style="-fx-background-color: green;" text="Save" textFill="#f2f2f2" />
+   </children>
+</AnchorPane>
